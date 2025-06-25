@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora PT de Consolidação</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styletest.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Quanto preciso tirar na PT de Consolidação?</h1>
+    </header>
+
+    <div class="home-wrapper">
+      <a href="index.html" class="btn-home">HOME</a>
+    </div>
+
+    <main>
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          <p class="intro">Informe os pontos da avaliação abaixo:</p>
+
+          <div class="campo-linha-horizontal">
+            <label for="av">Pontos da Avaliação</label>
+            <input
+              type="number"
+              id="av"
+              placeholder="Digite seus Pontos"
+              min="0"
+              max="40"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="botoes">
+            <button id="calcular">Calcular</button>
+            <button id="limpar">Limpar Campos</button>
+          </div>
+
+          <div class="display" id="resultado"></div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../dist/CalcConso.js"></script>
+  </body>
+</html>

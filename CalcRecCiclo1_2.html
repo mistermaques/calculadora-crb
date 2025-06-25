@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora Recuperação</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styletest.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora Recuperação - Prova REC</h1>
+    </header>
+
+    <div class="home-wrapper">
+      <a href="index.html" class="btn-home">HOME</a>
+    </div>
+
+    <main>
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          <p class="intro">Informe suas notas abaixo:</p>
+
+          <div class="campo-linha-horizontal">
+            <label for="tc">TC</label>
+            <input type="number" id="tc" placeholder="Digite TC" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="pt">PT</label>
+            <input type="number" id="pt" placeholder="Digite PT" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="pu">PU</label>
+            <input type="number" id="pu" placeholder="Digite PU" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="botoes">
+            <button id="calcular">Calcular</button>
+            <button id="limpar">Limpar</button>
+          </div>
+
+          <div class="display" id="resultado">Resultado aparecerá aqui</div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../dist/CalcRecCiclo1_2.js"></script>
+  </body>
+</html>

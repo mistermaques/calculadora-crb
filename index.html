@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Notas - CRB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">CRB</div>
+      <h1>Calculadora de Notas</h1>
+    </header>
+
+    <main>
+      <h2>Selecione a sua série:</h2>
+      <select id="serie">
+        <option value="">Selecione</option>
+        <option value="5ano">5º Ano</option>
+        <option value="6ano">6º Ano</option>
+        <option value="7ano">7º Ano</option>
+        <option value="8ano">8º Ano</option>
+        <option value="9ano">9º Ano</option>
+        <option value="1em">1º Ensino Médio</option>
+        <option value="2em">2º Ensino Médio</option>
+        <!-- <option value="3em">3º Ensino Médio</option> -->
+      </select>
+
+      <div class="grid-cards" id="cardsContainer">
+        <!-- Os cards aparecerão aqui dinamicamente -->
+      </div>
+    </main>
+
+    <script type="module" src="/dist/selecionar.js"></script>
+  </body>
+</html>

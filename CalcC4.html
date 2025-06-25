@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora para o C4</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styletest.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora para o C4</h1>
+    </header>
+
+    <div class="home-wrapper">
+      <a href="index.html" class="btn-home">HOME</a>
+    </div>
+
+    <main>
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          <p class="intro">Informe suas notas abaixo:</p>
+
+          <div class="campo-linha-horizontal">
+            <label for="c1">C1</label>
+            <input
+              type="number"
+              id="c1"
+              placeholder="Digite C1"
+              min="0"
+              max="10"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="c2">C2</label>
+            <input
+              type="number"
+              id="c2"
+              placeholder="Digite C2"
+              min="0"
+              max="10"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="c3">C3</label>
+            <input
+              type="number"
+              id="c3"
+              placeholder="Digite C3"
+              min="0"
+              max="10"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="botoes">
+            <button id="calcular">Calcular</button>
+            <button id="limpar">Limpar Campos</button>
+          </div>
+
+          <div class="display" id="resultado"></div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../dist/calcC4.js"></script>
+  </body>
+</html>

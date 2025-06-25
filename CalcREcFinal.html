@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quanto tirar na PR?</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="./styletest.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Quanto preciso tirar na PR? (Prova de recuperação Final)</h1>
+    </header>
+
+    <div class="home-wrapper">
+      <a href="index.html" class="btn-home">HOME</a>
+    </div>
+
+    <main>
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          <p class="intro">Digite sua média dos ciclos abaixo:</p>
+
+          <div class="campo-linha-horizontal">
+            <label for="media">Média dos ciclos (MC)</label>
+            <input
+              type="number"
+              id="media"
+              min="0"
+              max="5"
+              placeholder="Ex: 5.0"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="botoes">
+            <button id="calcular">Calcular</button>
+            <button id="limpar">Limpar</button>
+          </div>
+
+          <div class="display" id="resultado">Resultado aparecerá aqui</div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../dist/CalcRecFinal.js"></script>
+  </body>
+</html>

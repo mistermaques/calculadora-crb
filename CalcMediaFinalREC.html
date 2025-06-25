@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nota Final Após REC</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styletest.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora de Nota Final do Ciclo</h1>
+      <h3>Após Recuperação</h3>
+    </header>
+
+    <div class="home-wrapper">
+      <a href="index.html" class="btn-home">HOME</a>
+    </div>
+
+    <main>
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          <p class="intro">Informe suas notas abaixo:</p>
+
+          <div class="campo-linha-horizontal">
+            <label for="tc">TC</label>
+            <input
+              type="number"
+              id="tc"
+              placeholder="Digite TC"
+              min="0"
+              max="30"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="pt">PT</label>
+            <input
+              type="number"
+              id="pt"
+              placeholder="Digite PT"
+              min="0"
+              max="40"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="pu">PU</label>
+            <input
+              type="number"
+              id="pu"
+              placeholder="Digite PU"
+              min="0"
+              max="40"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="rec">REC</label>
+            <input
+              type="number"
+              id="rec"
+              placeholder="Digite REC"
+              min="0"
+              max="80"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="botoes">
+            <button id="calcular">Calcular Nota Final</button>
+            <button id="limpar">Limpar Campos</button>
+          </div>
+
+          <div class="display" id="resultado"></div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../dist/CalcMediaFinalREC.js"></script>
+  </body>
+</html>

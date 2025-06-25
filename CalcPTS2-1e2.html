@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Notas - CRB</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styletest.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora de Notas - PT e S2 para 1º e 2º Ano</h1>
+    </header>
+
+    <div class="home-wrapper">
+      <a href="index.html" class="btn-home">HOME</a>
+    </div>
+
+    <main>
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          <p class="intro">Digite suas notas abaixo:</p>
+
+          <div class="campo-linha-horizontal">
+            <label for="tc">TC</label>
+            <input type="number" id="tc" placeholder="Digite o TC" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="pu">PU</label>
+            <input type="number" id="pu" placeholder="Digite o PU" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="s1">S1</label>
+            <input type="number" id="s1" placeholder="Digite o S1" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="botoes">
+            <button id="calcular">Calcular</button>
+            <button id="limpar">Limpar</button>
+          </div>
+
+          <div class="display" id="resultado">Resultado aparecerá aqui</div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../dist/CalcPTS2-1e2.js"></script>
+  </body>
+</html>

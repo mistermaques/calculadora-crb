@@ -1,0 +1,174 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo geral */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Botão HOME no canto */
+.btn-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+.btn-home:hover {
+  background-color: #e65c00;
+}
+
+/* Título */
+header h1 {
+  color: #ff6600;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* Centralização geral */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 60vh;
+}
+
+/* Caixa principal */
+.calc-wrapper {
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 20px; /* Arredondado mais elegante */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  width: 60%;
+  max-width: 520px;
+  margin: auto;
+}
+
+/* Estrutura da calculadora */
+.calc-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Texto introdutório */
+.intro {
+  font-size: 17px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Linha horizontal: label + input */
+.campo-linha-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Estilo dos labels */
+.campo-linha-horizontal label {
+  font-weight: bold;
+  font-size: 16px;
+  min-width: 10px;
+  text-align: center;
+  color: #333;
+}
+
+/* ESTILO GLOBAL DOS INPUTS */
+.calc-grid input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Arredondado leve */
+  font-size: 16px;
+  width: 200px; /* Tamanho fixo */
+  transition: 0.3s;
+}
+
+/* Quando o input é focado */
+.calc-grid input:focus {
+  border-color: #ff6600;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 102, 0, 0.2);
+}
+
+/* Botões */
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+/* Estilo dos botões */
+.botoes button {
+  padding: 12px 22px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.botoes button:hover {
+  background-color: #e65c00;
+}
+
+/* Resultado */
+.display {
+  background-color: #e9f6e9;
+  color: #3a3f3a;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 18px;
+  margin-top: 0.2px;
+  font-size: 18px;
+  border: 1px solid #c8e6c9;
+}
+
+input.erro {
+  border: 1px solid red;
+}
+
+.mensagem-erro {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.btn-rec {
+  padding: 12px 22px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+btn-rec:hover {
+  background-color: #e65c00;
+}

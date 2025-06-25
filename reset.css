@@ -1,0 +1,38 @@
+/* reset.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove decoração padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove estilo de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove estilo padrão de botões e inputs */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+/* Deixa body mais neutro */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.5;
+}

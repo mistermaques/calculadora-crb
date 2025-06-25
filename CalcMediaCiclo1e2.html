@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcular Média do Ciclo</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styletest.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calcular Média do Ciclo</h1>
+    </header>
+
+    <div class="home-wrapper">
+      <a href="index.html" class="btn-home">HOME</a>
+    </div>
+
+    <main>
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          <p class="intro">Preencha as notas abaixo:</p>
+
+          <div class="campo-linha-horizontal">
+            <label for="tc">TC</label>
+            <input type="number" id="tc" placeholder="Nota TC" min="0" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="pt">PT</label>
+            <input type="number" id="pt" placeholder="Nota PT" min="0" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="pu">PU</label>
+            <input type="number" id="pu" placeholder="Nota PU" min="0" />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="s1">S1</label>
+            <input
+              type="number"
+              id="s1"
+              placeholder="Nota S1"
+              min="0"
+              max="5"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="s2">S2</label>
+            <input
+              type="number"
+              id="s2"
+              placeholder="Nota S2"
+              min="0"
+              max="5"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="botoes">
+            <button id="calcular">Calcular Média</button>
+            <button id="limpar">Limpar Campos</button>
+          </div>
+
+          <div class="display" id="resultado">Resultado aparecerá aqui</div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/dist/CalcMediaCiclo-1e2.js"></script>
+  </body>
+</html>

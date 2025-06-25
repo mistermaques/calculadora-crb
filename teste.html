@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Notas - CRB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">CRB</div>
+      <h1>Calculadora de Notas - CRB</h1>
+    </header>
+
+    <main>
+      <h2>Selecione a sua série</h2>
+
+      <!-- ID usado para pegar a série selecionada -->
+      <select id="serie">
+        <option value="">Selecione</option>
+        <option value="5ano">5º Ano</option>
+        <option value="6ano">6º Ano</option>
+        <option value="7ano">7º Ano</option>
+        <option value="8ano">8º Ano</option>
+        <option value="9ano">9º Ano</option>
+        <option value="1em">1º Ensino Médio</option>
+        <option value="2em">2º Ensino Médio</option>
+        <option value="3em">3º Ensino Médio</option>
+      </select>
+
+      <h3>
+        Para atingir seus objetivos acadêmicos, qual tipo de nota você gostaria
+        de calcular?
+      </h3>
+
+      <div class="grid-cards">
+        <!-- Cada card abaixo tem um ID único para ser usado no JavaScript -->
+
+        <div id="calcularPT" class="card">
+          Quanto eu preciso tirar na PT para não ficar de Recuperação? C1, C2 e
+          C3
+        </div>
+
+        <div id="calcularPT1e2" class="card">
+          Quanto eu preciso tirar na PT e S2 para não ficar de Recuperação? C1,
+          C2 e C3
+        </div>
+
+        <div id="calcularRec" class="card">
+          Quanto eu preciso tirar na Rec para recuperar o ciclo? C1, C2 e C3
+        </div>
+
+        <div id="calcularC4aprimoramento" class="card">
+          Quero saber se fiquei de <strong>aprimoramento</strong> ou
+          <strong>consolidação</strong> no <strong>C4</strong>.
+        </div>
+
+        <div id="calcularPTconsolidacao" class="card">
+          Quanto eu preciso tirar na PT de consolidação para não ficar de rec?
+        </div>
+
+        <div id="Mediafinal" class="card">Calcular Media Final</div>
+
+        <div id="calcularRecFinal" class="card">
+          Quanto eu preciso tirar na Rec Final para não ir para o conselho?
+        </div>
+        <div id="calcularmMediaCiclo" class="card">
+          Calcular Media do Ciclo 1,2 e 3
+        </div>
+        <div id="CalcularMediaposREC" class="card">
+          Calcular Media final pos rec final
+        </div>
+      </div>
+    </main>
+
+    <!-- JS que acessa os IDs para aplicar a lógica -->
+    <script type="module" src="../dist/selecionar.js"></script>
+  </body>
+</html>

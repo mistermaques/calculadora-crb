@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo de Média Anual</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styletest.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora de Média Final Anual</h1>
+    </header>
+
+    <div class="home-wrapper">
+      <a href="index.html" class="btn-home">HOME</a>
+    </div>
+
+    <main>
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          <p class="intro">Informe suas notas abaixo:</p>
+
+          <div class="campo-linha-horizontal">
+            <label for="c1">C1</label>
+            <input
+              type="number"
+              id="c1"
+              placeholder="Digite C1"
+              min="0"
+              max="10"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="c2">C2</label>
+            <input
+              type="number"
+              id="c2"
+              placeholder="Digite C2"
+              min="0"
+              max="10"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="c3">C3</label>
+            <input
+              type="number"
+              id="c3"
+              placeholder="Digite C3"
+              min="0"
+              max="10"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="campo-linha-horizontal">
+            <label for="c4">C4</label>
+            <input
+              type="number"
+              id="c4"
+              placeholder="Digite C4"
+              min="0"
+              max="10"
+            />
+          </div>
+          <span class="mensagem-erro"></span>
+
+          <div class="botoes">
+            <button id="calcular">Calcular Média</button>
+            <button id="limpar">Limpar</button>
+          </div>
+          <a
+            href="calcRecFinal.html"
+            class="btn-rec"
+            id="linkRec"
+            style="display: none"
+          >
+            Clique aqui para ver quanto precisa tirar na REC Final para não ir
+            para o conselho
+          </a>
+
+          <div class="display" id="resultado"></div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../dist/calcmediaAnual.js"></script>
+  </body>
+</html>
