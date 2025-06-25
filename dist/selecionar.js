@@ -158,7 +158,7 @@ const cardsPorSerie = {
         },
         {
             id: "rec",
-            texto: "Quanto eu preciso tirar na Rec para recuperar o ciclo? C1, C2 e C3",
+            texto: "Quanto eu preciso tirar na Rec para recuperar o ciclo? C1, C2 e C3 ",
             destino: "CalcRecCiclo1_2.html",
         },
         {
