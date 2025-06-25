@@ -26,7 +26,7 @@ const cardsPorSerie = {
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "CalcConsol.html",
+            destino: "calcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -63,7 +63,7 @@ const cardsPorSerie = {
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "CalcConsol.html",
+            destino: "calcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -100,7 +100,7 @@ const cardsPorSerie = {
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "CalcConsol.html",
+            destino: "calcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -137,7 +137,7 @@ const cardsPorSerie = {
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "CalcConsol.html",
+            destino: "calcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -174,7 +174,7 @@ const cardsPorSerie = {
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "CalcConsol.html",
+            destino: "calcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -216,7 +216,7 @@ const cardsPorSerie = {
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "CalcConsol.html",
+            destino: "calcConsol.html",
         },
         {
             id: "mediaPosRec",
@@ -248,7 +248,7 @@ const cardsPorSerie = {
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "CalcConsol.html",
+            destino: "calcConsol.html",
         },
         {
             id: "mediaCiclo",
