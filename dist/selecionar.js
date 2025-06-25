@@ -21,12 +21,12 @@ const cardsPorSerie = {
         {
             id: "c4",
             texto: "Aprimoramento ou Consolidação no C4?",
-            destino: "calcC4.html",
+            destino: "CalcC4.html",
         },
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "calcConsol.html",
+            destino: "CalcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -58,12 +58,12 @@ const cardsPorSerie = {
         {
             id: "c4",
             texto: "Aprimoramento ou Consolidação no C4?",
-            destino: "calcC4.html",
+            destino: "CalcC4.html",
         },
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "calcConsol.html",
+            destino: "CalcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -95,12 +95,12 @@ const cardsPorSerie = {
         {
             id: "c4",
             texto: "Aprimoramento ou Consolidação no C4?",
-            destino: "calcC4.html",
+            destino: "CalcC4.html",
         },
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "calcConsol.html",
+            destino: "CalcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -132,12 +132,12 @@ const cardsPorSerie = {
         {
             id: "c4",
             texto: "Aprimoramento ou Consolidação no C4?",
-            destino: "calcC4.html",
+            destino: "CalcC4.html",
         },
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "calcConsol.html",
+            destino: "CalcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -169,12 +169,12 @@ const cardsPorSerie = {
         {
             id: "c4",
             texto: "Aprimoramento ou Consolidação no C4?",
-            destino: "calcC4.html",
+            destino: "CalcC4.html",
         },
         {
             id: "ptCons",
             texto: "Quanto preciso na PT Consolidação?",
-            destino: "calcConsol.html",
+            destino: "CalcConsol.html",
         },
         {
             id: "mediaCiclo",
@@ -209,6 +209,16 @@ const cardsPorSerie = {
             destino: "CalcMediaCiclo1e2.html",
         },
         {
+            id: "c4",
+            texto: "Aprimoramento ou Consolidação no C4?",
+            destino: "CalcC4.html",
+        },
+        {
+            id: "ptCons",
+            texto: "Quanto preciso na PT Consolidação?",
+            destino: "CalcConsol.html",
+        },
+        {
             id: "mediaPosRec",
             texto: "Calcular Média Final após REC",
             destino: "CalcMediaRec.html",
@@ -229,6 +239,16 @@ const cardsPorSerie = {
             id: "mediaFinal",
             texto: "Calcular Média Final",
             destino: "CalcMediaAnual.html",
+        },
+        {
+            id: "c4",
+            texto: "Aprimoramento ou Consolidação no C4?",
+            destino: "CalcC4.html",
+        },
+        {
+            id: "ptCons",
+            texto: "Quanto preciso na PT Consolidação?",
+            destino: "CalcConsol.html",
         },
         {
             id: "mediaCiclo",
