@@ -38,7 +38,7 @@ header h1 {
   color: #ff6600;
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
@@ -171,4 +171,102 @@ input.erro {
 
 btn-rec:hover {
   background-color: #e65c00;
+}
+
+/* Responsividade para telas pequenas (celulares) */
+@media (max-width: 700px) {
+  header {
+    padding-top: 22px; /* Reduz espaço acima do título */
+    margin-bottom: 10px; /* Menos espaço abaixo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  header h1 {
+    font-size: 20px; /* Diminui a fonte */
+    margin: 0 10px; /* Espaço lateral para não colar nas bordas */
+    text-align: center;
+    line-height: 1.2; /* Menor altura entre linhas */
+  }
+
+  .home-wrapper {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transform: scale(0.85); /* Reduz visualmente sem perder estilo */
+  }
+
+  .btn-home {
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+
+  .calc-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 25px 10px;
+    margin-top: 20px;
+  }
+
+  .calc-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .campo-linha-horizontal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 399px;
+    gap: 10px;
+  }
+
+  .campo-linha-horizontal label {
+    min-width: 40px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .campo-linha-horizontal input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 340px;
+    gap: 10px;
+  }
+
+  .botoes button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 14px;
+    flex: 1;
+  }
+
+  .display {
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #020202;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+    display: block;
+    visibility: visible;
+  }
 }
